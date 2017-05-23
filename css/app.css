@@ -1,0 +1,58 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: "Lato";
+}
+
+footer{
+  height: 600px;
+  border-bottom:1px solid #e5e5e5;
+  border-top:1px solid #e5e5e5;
+  padding: 20px;
+  color: #6b6b6b;
+
+}
+.departments{
+  border-right:1px solid #e5e5e5;
+}
+.departments ul li {
+  color: #6b6b6b !important;
+}
+.categories{
+  display: flex;
+  flex-wrap: wrap;
+}
+.categories li{
+  width: 25%;
+}
+.social-icons{
+width: 135px;
+height: 40px;
+display: flex;
+justify-content: space-between;
+}
+.social-icons i{
+  color: #171717;
+}
+.input-email{
+  height:43px;
+	width:230px;
+	padding:6px;
+	font-size:inherit;
+	display:inline-block !important;
+}
+.link-email{
+  background-color:#000;
+	color:#fff !important;
+	font-size:16px;
+	font-weight:300;
+	height:39px;
+	letter-spacing:2px;
+	line-height:43px;
+	padding:13px 24px;
+	text-align:center;
+	vertical-align:top;
+	width:157px;
+	display:inline;
+
+}
