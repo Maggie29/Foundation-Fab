@@ -10,13 +10,22 @@ footer{
   border-top:1px solid #e5e5e5;
   padding: 20px;
   color: #6b6b6b;
+}
 
+.title{
+  color: #171717;
+}
+.navbar-footer a{
+  color: #6b6b6b;
 }
 .departments{
   border-right:1px solid #e5e5e5;
 }
-.departments ul li {
-  color: #6b6b6b !important;
+h4{
+  font-weight: bold;
+}
+.departments a{
+  color: #6b6b6b;
 }
 .categories{
   display: flex;
@@ -24,6 +33,9 @@ footer{
 }
 .categories li{
   width: 25%;
+}
+.categories li a{
+  color: #6b6b6b;
 }
 .social-icons{
 width: 135px;
@@ -33,6 +45,8 @@ justify-content: space-between;
 }
 .social-icons i{
   color: #171717;
+}
+.email-box div{
 }
 .input-email{
   height:43px;
